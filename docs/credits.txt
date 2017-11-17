@@ -1,0 +1,27 @@
+Sozi: @senshu
+
+Kubernetes Logo: Linux Foundation
+Prometheus: Linux Foundation
+Github Logo: Github Inc.
+Etcd Logo: Coreo
+Caddy Logo: Light Code Labs
+
+openclipart.org:
+ - open box: mcol
+ - pull down screen: yish
+ - red virtual server: pydubreucq
+ - Firewall: cyberscooty
+ - DatabaseRed: ericlemerdy
+ - File Icon: jhnri4
+ - Tag Icon: jhnri4
+ - Sugar-cube-34345345: jhnri4
+ - Sample Folder: nikla88
+ - eco-systemedic-plug-A: dominiquechappard
+ - eco-green-machine-icon (Gears): dominiquechappard
+ - EKG Heart: GDJ
+ - SMIL animation (stoplight): ric5sch
+ - Laptop Computer Icon: kael_179
+ - Cell Phone Icon: kael_179
+ - CPU: Fabuio
+ - RAM Memory: Fabuio
+ - Statistics: hawk88

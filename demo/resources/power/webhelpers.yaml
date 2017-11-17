@@ -1,0 +1,86 @@
+## Power User Topics Applied here:
+# Downward API
+# Lifecycle Hooks
+# Readiness Probes
+---
+# Create a namespace to hold various webhelper services for use by kube-decon only. No direct ingress
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: webhelpers
+  labels:
+    name: webhelpers
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    run: nginx
+    tier: webhelpers
+  name: nginx
+  namespace: webhelpers
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      run: nginx
+      tier: webhelpers
+  template:
+    metadata:
+      labels:
+        run: nginx
+        tier: webhelpers
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        # Send some data about the current runtime to the env
+        # via the downward api
+        env:
+          - name: MY_NODE_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: spec.nodeName
+          - name: MY_POD_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.name
+          - name: MY_POD_NAMESPACE
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.namespace
+        ## Use env vars to write out the running namespace/podname as the index
+        lifecycle:
+          postStart:
+            exec:
+              command:
+                - /bin/sh
+                - -c
+                - 'echo "
+                  <html>
+                  <head><title>About Me</title></head>
+                  <body>
+                  My name is ${MY_POD_NAME}<br />
+                  I am running in ${MY_POD_NAMESPACE}<br/>
+                  I am running on ${MY_NODE_NAME}
+                  </body>
+                  </html>"
+                  > /usr/share/nginx/html/index.html && touch /ready'
+        ports:
+        - containerPort: 80
+      terminationGracePeriodSeconds: 30
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: nginx
+  name: nginx
+  namespace: webhelpers
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    run: nginx

@@ -1,0 +1,21 @@
+Kubernetes Desconstructed: Understanding Kubernetes by breaking it down
+
+---
+
+Understanding Kubernetes as a whole can be daunting. With so many different components working together it can be hard to know how the pieces work together or where new products and features fit in. I will start at the highest level and then peel off the layers one at time to explain how some of the "magic" happens. Over the course of the presentation I will break Kubernetes into the following layers:
+
+"Kubernetes for the End User": A quick summary on some of the core components of Kubernetes: Namespaces, Deployments, Pods, Services, and Ingress Rules. At this layer the user just needs to understand the promises made by Kubernetes, not necessarily the way it keeps them. This layer primarily serves to establish a typical cluster workload. The resources defined here will be used when explaining all of the deeper layers.
+
+"Kubernetes for the Cluster Admin": This Layer peels away some of the cluster "Magic". I will cover how the service account, default tokens, ReplicaSet and Pods from the previous layer got created by the kube-controller-manager. I will also explain how the kube-scheduler decided which node the workload should run on and how that decision could have been influenced by fields in the pod spec. This section will touch on the core concepts of Ingress controllers, Admission Controllers, scheduling, and core controller loops.
+
+"Kubernetes for the Cloud Admin": This layer covers Kubernetes at an infrastructure level. Core concepts covered are: Horizontal Scaling, Load Balancing, high availability for masters and nodes, node management, and fault-tolerance levels. Here is also where I set the stage for the network layer that is covered next.
+
+"Kubernetes for the Network Admin": Now we dig deeper into the network infrastructure. Explaining how pods and services work together, how your network traffic figures out where to go, and how it gets there. This section covers the concepts of East-West and North-South load balancing. The goal is to provide an basic understanding of the network promises made by Kubernetes and how you might replace them with other software and services.
+
+"Kubernetes for the Linux Admin": A discussion of Kubernetes at the OS layer. This layer digs into the processes and configuration of the base OS. This includes pluggable container engines ex: Docker vs. Rkt, logging, CNI, metric gathering and volume mounting.
+
+"Kubernetes for the Power-User": Time permitting, the final section will put all of the previous ones together to show how a next-generation application might be deployed on top of Kubernetes and take advantage of the more advanced features.
+
+---
+
+A key part of supporting the Kubernetes ecosystem is understanding where different offerings fit in. I believe that this presentation benefits the ecosystem by helping users better understand where various addons, replacements and enhancements fit it. For example: you are much more likely to be interested in replacing your ingress controller, network provider or scheduler when you understand where they run and Pwhat they do for you.

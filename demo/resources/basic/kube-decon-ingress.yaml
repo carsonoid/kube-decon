@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: kube-decon
+  namespace: kube-decon
+spec:
+  rules:
+  - host: kube-decon.kubecon.carson-anderson.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: kube-decon
+          servicePort: 80

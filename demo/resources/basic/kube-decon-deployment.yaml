@@ -1,0 +1,25 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: kube-decon
+  namespace: kube-decon
+  labels:
+    app: kube-decon
+    tier: web
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kube-decon
+      tier: web
+  template:
+    metadata:
+      labels:
+        app: kube-decon
+        tier: web
+    spec:
+      containers:
+      - name: kube-decon
+        image: carsonoid/kube-decon:latest
+        ports:
+        - containerPort: 2015

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="Layer_1"
+    enable-background="new 0 0 256 256"
+    xml:space="preserve"
+    viewBox="0 0 256 256"
+    version="1.1"
+    y="0px"
+    x="0px"
+  >
+<radialGradient
+      id="SVGID_1_"
+      gradientUnits="userSpaceOnUse"
+      cy="62.334"
+      cx="181"
+      r="208.44"
+    >
+	<stop
+        style="stop-color:#FFE0A2"
+        offset="0"
+    />
+	<stop
+        style="stop-color:#FCB447"
+        offset="1"
+    />
+</radialGradient
+  >
+<path
+      d="m86.089 63.528c2.655-0.805 5.306 1.066 5.896 4.161l0.58 3.044c0.588 3.085 3.239 4.956 5.885 4.153l88.174-26.738c2.654-0.805 5.307 1.066 5.896 4.161l21.189 111.14c0.588 3.085-1.098 6.271-3.754 7.076l-150.06 45.5c-2.654 0.805-5.306-1.065-5.894-4.15l-21.187-111.14c-0.59-3.094 1.097-6.281 3.751-7.085l3.071-0.931c2.646-0.803 4.332-3.989 3.744-7.074l-0.58-3.044c-0.59-3.095 1.097-6.281 3.751-7.086l39.533-11.992z"
+      fill="url(#SVGID_1_)"
+  />
+<defs
+    >
+	<filter
+        id="Adobe_OpacityMaskFilter"
+        height="132.64"
+        width="154.43"
+        y="83.58"
+        x="51.455"
+        filterUnits="userSpaceOnUse"
+      >
+		<feFlood
+          style="flood-color:white"
+          result="back"
+      />
+		<feBlend
+          mode="normal"
+          in2="back"
+          in="SourceGraphic"
+      />
+	</filter
+    >
+</defs
+  >
+<mask
+      id="SVGID_2_"
+      height="132.641"
+      width="154.43"
+      y="83.58"
+      x="51.455"
+      maskUnits="userSpaceOnUse"
+    >
+</mask
+  >
+<g
+      mask="url(#SVGID_2_)"
+    >
+	<path
+        d="m205.88 122.4l-7.402-38.824c-26.574 7.254-111.94 30.851-119.82 36.753-7.483 5.612-21.821 57.716-27.212 78.155l2.554 13.396c0.588 3.085 3.24 4.955 5.894 4.15l145.44-44.104 0.54-49.53z"
+    />
+</g
+  >
+<linearGradient
+      id="SVGID_3_"
+      y2="166.41"
+      gradientUnits="userSpaceOnUse"
+      x2="212.43"
+      y1="132.96"
+      x1="77.764"
+    >
+	<stop
+        style="stop-color:#FEE58A"
+        offset="0"
+    />
+	<stop
+        style="stop-color:#FCB461"
+        offset="1"
+    />
+</linearGradient
+  >
+<path
+      d="m233.7 82.767c2.654-0.805 4.299 0.371 3.658 2.609l-23.072 80.614c-0.643 2.244-3.336 4.736-5.99 5.542l-150.07 45.51c-2.646 0.803-4.29-0.373-3.647-2.618l23.072-80.613c0.64-2.237 3.334-4.729 5.98-5.532l150.06-45.513z"
+      fill="url(#SVGID_3_)"
+  />
+<metadata
+    ><rdf:RDF
+      ><cc:Work
+        ><dc:format
+          >image/svg+xml</dc:format
+        ><dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        /><cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        /><dc:publisher
+          ><cc:Agent
+              rdf:about="http://openclipart.org/"
+            ><dc:title
+              >Openclipart</dc:title
+            ></cc:Agent
+          ></dc:publisher
+        ><dc:title
+          >Folder icon</dc:title
+        ><dc:date
+          >2011-05-08T02:14:09</dc:date
+        ><dc:description
+          >A (somewhat) realistic folder icon.</dc:description
+        ><dc:source
+          >https://openclipart.org/detail/137155/folder-icon-by-jhnri4-137155</dc:source
+        ><dc:creator
+          ><cc:Agent
+            ><dc:title
+              >jhnri4</dc:title
+            ></cc:Agent
+          ></dc:creator
+        ><dc:subject
+          ><rdf:Bag
+            ><rdf:li
+              >folder</rdf:li
+            ><rdf:li
+              >how i did it</rdf:li
+            ><rdf:li
+              >icon</rdf:li
+            ></rdf:Bag
+          ></dc:subject
+        ></cc:Work
+      ><cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        ><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        /></cc:License
+      ></rdf:RDF
+    ></metadata
+  ></svg
+>

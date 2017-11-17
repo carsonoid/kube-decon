@@ -1,0 +1,287 @@
+## Power User Topics Applied here:
+# Lifecyle hooks
+# Affinity
+# Container SecurityContext
+# ConfigMaps as Volumes
+---
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: caddyfiles
+  namespace: kube-decon
+data:
+  proxy.conf: |
+    # Proxy to service within same namespace
+    proxy /nginx nginx:80 {
+      transparent
+      without /nginx
+    }
+  proxy2.conf: |
+    # Proxy accross namespaces
+    proxy /nginx-webhelpers nginx.webhelpers:80 {
+      transparent
+      without /nginx-webhelpers
+    }
+  defaults.conf: |
+    ext sozi.html .html
+    browse /markdown
+    markdown /srv/markdown
+  alive.conf: |
+    status 200 /alive
+    header /alive {
+      X-Is-Alive "yes"
+    }
+  ready.conf: |
+    status 200 /ready
+    header /ready {
+      X-Is-Ready "yes"
+    }
+---
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: dynamic-docs
+  namespace: kube-decon
+data:
+  index.md: |
+    # What are you looking for?
+
+    [Presentation](../)
+
+    [Credits](./credits.md)
+  credits.md: |
+    # Credits
+
+    ## Software
+
+     * Sozi: @senshu
+
+    ## Logos
+
+     * Kubernetes Logo: Linux Foundation
+     * Prometheus: Linux Foundation
+     * Github Logo: Github Inc.
+     * Etcd Logo: Coreo
+     * Caddy Logo: Light Code Labs
+
+    ## openclipart.org
+
+     * open box: mcol
+     * pull down screen: yish
+     * red virtual server: pydubreucq
+     * Firewall: cyberscooty
+     * DatabaseRed: ericlemerdy
+     * File Icon: jhnri4
+     * Tag Icon: jhnri4
+     * Sugar-cube-34345345: jhnri4
+     * Sample Folder: nikla88
+     * eco-systemedic-plug-A: dominiquechappard
+     * eco-green-machine-icon (Gears): dominiquechappard
+     * EKG Heart: GDJ
+     * SMIL animation (stoplight): ric5sch
+     * Laptop Computer Icon: kael_179
+     * Cell Phone Icon: kael_179
+     * CPU: Fabuio
+     * RAM Memory: Fabuio
+     * Statistics: hawk88
+---
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: kube-decon
+  namespace: kube-decon
+  labels:
+    app: kube-decon
+    tier: web
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kube-decon
+      tier: web
+  # Have a more specific rollout behavior
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: kube-decon
+        tier: web
+    spec:
+      affinity:
+        # Prefer to be on the same node as a webhelper pod
+        podAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: tier
+                  operator: In
+                  values:
+                  - webhelper
+              topologyKey: kubernetes.io/hostname
+        # Make sure deployment pods never run on the same node
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: app
+                operator: In
+                values:
+                - kube-decon
+            topologyKey: kubernetes.io/hostname
+      # Extra time to term gracefully
+      terminationGracePeriodSeconds: 60
+      containers:
+      - name: kube-decon
+        image: carsonoid/kube-decon:latest
+        # Extra security options
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: true
+          runAsUser: 1000
+        # Always wait 30s before term to give the ingress controller time to update
+        lifecycle:
+          preStop:
+            exec:
+              command: ["/bin/sleep", "30"]
+        ports:
+        - containerPort: 2015
+        # Get dynamic configs/docs from Kubernetes
+        volumeMounts:
+        - name: config
+          readOnly: true
+          mountPath: /etc/Caddyfile.d
+        - name: dynamic-docs
+          readOnly: true
+          mountPath: /srv/markdown
+        # Define health/ready checks to avoid premature load shift
+        # and fix hung processes
+        livenessProbe:
+           httpGet:
+             path: /alive
+             port: 2015
+           initialDelaySeconds: 3
+           periodSeconds: 3
+        readinessProbe:
+           httpGet:
+             path: /ready
+             port: 2015
+           initialDelaySeconds: 3
+           periodSeconds: 3
+      # Config volume sources
+      volumes:
+      - name: config
+        configMap:
+          name: caddyfiles
+      - name: dynamic-docs
+        configMap:
+          name: dynamic-docs
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: kube-decon
+  namespace: kube-decon
+spec:
+  selector:
+    app: kube-decon
+    tier: web
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 2015
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: kube-decon
+  namespace: kube-decon
+spec:
+  rules:
+  - host: kube-decon.kubecon.carson-anderson.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: kube-decon
+          servicePort: 80
+---
+# Run local nginx helper
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    run: nginx
+    tier: webhelpers
+  name: nginx
+  namespace: kube-decon
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      run: nginx
+      tier: webhelpers
+  template:
+    metadata:
+      labels:
+        run: nginx
+        tier: webhelpers
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        # Send some data about the current runtime to the env
+        # via the downward api
+        env:
+          - name: MY_NODE_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: spec.nodeName
+          - name: MY_POD_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.name
+          - name: MY_POD_NAMESPACE
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.namespace
+        ## Use env vars to write out the running namespace/podname as the index
+        lifecycle:
+          postStart:
+            exec:
+              command:
+                - /bin/sh
+                - -c
+                - 'echo "
+                  <html>
+                  <head><title>About Me</title></head>
+                  <body>
+                  My name is ${MY_POD_NAME}<br />
+                  I am running in ${MY_POD_NAMESPACE}<br/>
+                  I am running on ${MY_NODE_NAME}
+                  </body>
+                  </html>"
+                  > /usr/share/nginx/html/index.html'
+        ports:
+        - containerPort: 80
+      terminationGracePeriodSeconds: 30
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: nginx
+  name: nginx
+  namespace: kube-decon
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    run: nginx

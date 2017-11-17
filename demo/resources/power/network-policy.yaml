@@ -1,0 +1,95 @@
+## Power User Topics Applied here:
+# Network Policy
+---
+# For the policies to work we need to make sure that some of the system namespaces are labeled properly
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kube-system
+  labels:
+    name: kube-system
+---
+# The ingress namespace may differ based on cluster deployments
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ingress
+  labels:
+    name: ingress
+---
+# Apply network policies for better network security
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny
+  namespace: kube-decon
+spec:
+  podSelector: {}t
+  policyTypes:
+  - Ingress
+  - Egress
+  egress:
+  # Always allow access to kube-system dns
+  - to:
+    - namespaceSelector:
+        matchLabels:
+          name: kube-system
+    ports:
+    - protocol: TCP
+      port: 53
+    - protocol: UDP
+      port: 53
+---
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: kube-decon-webhelpers
+  namespace: kube-decon
+spec:
+  podSelector:
+    matchLabels:
+      run: nginx
+  ingress:
+  - from:
+    - podSelector: {}
+    ports:
+    - protocol: TCP
+      port: 80
+---
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: kube-decon-allowances
+  namespace: kube-decon
+spec:
+  # match kube-decon pods
+  podSelector:
+    matchLabels:
+      app: kube-decon
+  # Isolate down ingress and egress by default
+  policyTypes:
+  - Ingress
+  - Egress
+  ingress:
+  - from:
+    # Allow traffic in from the ingress namespace
+    # As of 1.8 there is still no support for both pod and namespace filtering in one rule
+    # So this rule allows -all- pods in the matching namespaces in to the ports defined
+    - namespaceSelector:
+        matchLabels:
+          name: ingress
+    ports:
+    - protocol: TCP
+      port: 2015
+  # Allow access to webhelpers services
+  egress:
+  - to:
+    - podSelector:
+        matchLabels:
+          run: nginx
+    - namespaceSelector:
+        matchLabels:
+          name: webhelpers
+    ports:
+    - protocol: TCP
+      port: 80
