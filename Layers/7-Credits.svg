@@ -34,13 +34,13 @@
      showguides="false"
      showborder="false"
      inkscape:pagecheckerboard="true"
-     inkscape:current-layer="layer17"
+     inkscape:current-layer="layer20"
      inkscape:window-maximized="1"
-     inkscape:window-y="180"
+     inkscape:window-y="-8"
      inkscape:window-x="2552"
-     inkscape:cy="-1932.7452"
-     inkscape:cx="3180.0052"
-     inkscape:zoom="0.3535534"
+     inkscape:cy="112.96012"
+     inkscape:cx="3010.1552"
+     inkscape:zoom="0.35355339"
      showgrid="false"
      id="namedview168"
      inkscape:window-height="1356"
@@ -784,28 +784,25 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer20"
+     inkscape:label="Questions?">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="3048"
+       y="5285.0664"
+       id="text5481"><tspan
+         sodipodi:role="line"
+         id="tspan5479"
+         x="3048"
+         y="5285.0664">Questions?</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="OpenCLipart">
     <g
-       aria-label="openclipart.org:
- - open box: mcol
- - pull down screen: yish
- - red virtual server: pydubreucq
- - Firewall: cyberscooty
- - DatabaseRed: ericlemerdy
- - File Icon: jhnri4
- - Tag Icon: jhnri4
- - Sugar-cube-34345345: jhnri4
- - Sample Folder: nikla88
- - eco-systemedic-plug-A: dominiquechappard
- - eco-green-machine-icon (Gears): dominiquechappard
- - EKG Heart: GDJ
- - SMIL animation (stoplight): ric5sch
- - Laptop Computer Icon: kael_179
- - Cell Phone Icon: kael_179
- - CPU: Fabuio
- - RAM Memory: Fabuio
- - Statistics: hawk88"
+       aria-label="openclipart.org:  - open box: mcol  - pull down screen: yish  - red virtual server: pydubreucq  - Firewall: cyberscooty  - DatabaseRed: ericlemerdy  - File Icon: jhnri4  - Tag Icon: jhnri4  - Sugar-cube-34345345: jhnri4  - Sample Folder: nikla88  - eco-systemedic-plug-A: dominiquechappard  - eco-green-machine-icon (Gears): dominiquechappard  - EKG Heart: GDJ  - SMIL animation (stoplight): ric5sch  - Laptop Computer Icon: kael_179  - Cell Phone Icon: kael_179  - CPU: Fabuio  - RAM Memory: Fabuio  - Statistics: hawk88"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="text4929">
       <path
@@ -3089,6 +3086,106 @@
          style="stroke:#326de5;stroke-width:0.81451285px;stroke-opacity:1"
          id="path5807"
          inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer18"
+     inkscape:label="NavButtons">
+    <a
+       style="display:inline"
+       id="a5266"
+       transform="matrix(-1,0,0,1,4955.8651,-1364.7916)">
+      <path
+         style="display:inline;fill:#326ce5;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1893.7867,1254.3446 a 24.15307,23.990688 0 0 0 -9.2562,2.3457 l -126.3071,60.4398 a 24.15307,23.990688 0 0 0 -13.0685,16.2747 l -31.1608,135.7629 a 24.15307,23.990688 0 0 0 3.2793,18.394 24.15307,23.990688 0 0 0 1.373,1.9089 l 87.4248,108.8595 a 24.15307,23.990688 0 0 0 18.8838,9.0271 l 140.1995,-0.032 a 24.15307,23.990688 0 0 0 18.8839,-9.0109 l 87.3924,-108.8757 a 24.15307,23.990688 0 0 0 4.6685,-20.3029 L 2044.89,1333.3724 a 24.15307,23.990688 0 0 0 -13.0685,-16.2747 l -126.3233,-60.4074 a 24.15307,23.990688 0 0 0 -11.7115,-2.3457 z"
+         id="path3055-5-9-0-1-4-0-0"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="new.png"
+         inkscape:export-xdpi="250.55"
+         inkscape:export-ydpi="250.55" />
+    </a>
+    <path
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:0.99065396;stroke:#ffffff;stroke-width:2.45723271;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 3053.6647,-23.296526 V 37.89847 h 124.1358 v 90.3971 h -124.1358 v 56.0881 L 2934.5258,80.54357 Z"
+       id="rect5279-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc" />
+    <a
+       id="a5343-9"
+       transform="translate(1116.819,176.97717)"
+       xlink:href="javascript:window.history.back();"
+       style="display:inline;fill:#800000;fill-opacity:0">
+      <path
+         inkscape:export-ydpi="250.55"
+         inkscape:export-xdpi="250.55"
+         inkscape:export-filename="new.png"
+         inkscape:connector-curvature="0"
+         id="path5341-7"
+         d="m 1942.7405,-287.42411 a 24.15307,23.990688 0 0 0 -9.2562,2.3457 l -126.3071,60.4398 a 24.15307,23.990688 0 0 0 -13.0685,16.2747 l -31.1608,135.76289 a 24.15307,23.990688 0 0 0 3.2793,18.394 24.15307,23.990688 0 0 0 1.373,1.90896 L 1855.025,56.5614 a 24.15307,23.990688 0 0 0 18.8838,9.02714 l 140.1995,-0.0324 a 24.15307,23.990688 0 0 0 18.8839,-9.01095 l 87.3924,-108.87563 a 24.15307,23.990688 0 0 0 4.6685,-20.30295 l -31.2093,-135.76292 a 24.15307,23.990688 0 0 0 -13.0685,-16.2747 l -126.3233,-60.4074 a 24.15307,23.990688 0 0 0 -11.7115,-2.3457 z"
+         style="display:inline;fill:#800000;fill-opacity:0;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </a>
+    <path
+       style="display:inline;fill:#326ce5;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 3585.6469,-110.447 a 24.15307,23.990688 0 0 0 -9.2562,2.3457 l -126.3071,60.4398 a 24.15307,23.990688 0 0 0 -13.0685,16.2747 l -31.1608,135.7629 a 24.15307,23.990688 0 0 0 3.2793,18.394 24.15307,23.990688 0 0 0 1.373,1.9089 l 87.4248,108.8595 a 24.15307,23.990688 0 0 0 18.8838,9.0271 l 140.1995,-0.032 a 24.15307,23.990688 0 0 0 18.8839,-9.0109 L 3763.291,124.647 a 24.15307,23.990688 0 0 0 4.6685,-20.3029 l -31.2093,-135.7633 a 24.15307,23.990688 0 0 0 -13.0685,-16.2747 l -126.3233,-60.4074 a 24.15307,23.990688 0 0 0 -11.7115,-2.3457 z"
+       id="path5282"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="new.png"
+       inkscape:export-xdpi="250.55"
+       inkscape:export-ydpi="250.55" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       inkscape:connector-curvature="0"
+       id="path5286"
+       d="M 3594.0605,-23.296526 V 37.89847 h -124.1358 v 90.3971 h 124.1358 v 56.0881 l 119.1389,-103.8401 z"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:0.99065396;stroke:#ffffff;stroke-width:2.45723271;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer19"
+     inkscape:label="NavNext"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <g
+       id="g5476"
+       transform="translate(-0.4611,-476.51448)">
+      <path
+         style="display:inline;fill:#326ce5;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 3590.8428,374.70376 a 24.15307,23.990688 0 0 0 -9.256,2.3457 l -126.307,60.4398 a 24.15307,23.990688 0 0 0 -13.069,16.2747 l -31.161,135.76279 a 24.15307,23.990688 0 0 0 3.28,18.394 24.15307,23.990688 0 0 0 1.373,1.909 l 87.424,108.8595 a 24.15307,23.990688 0 0 0 18.884,9.0271 l 140.2,-0.032 a 24.15307,23.990688 0 0 0 18.884,-9.0109 l 87.392,-108.8757 a 24.15307,23.990688 0 0 0 4.669,-20.3029 l -31.21,-135.76289 a 24.15307,23.990688 0 0 0 -13.068,-16.2747 l -126.324,-60.4074 a 24.15307,23.990688 0 0 0 -11.711,-2.3457 z"
+         id="path3055-5-9-0-1-4-0-7-3"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="new.png"
+         inkscape:export-xdpi="250.55"
+         inkscape:export-ydpi="250.55" />
+      <text
+         id="text5277-7"
+         y="640.17511"
+         x="3455.5447"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:118.76194px;line-height:125%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.44591808px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#ffffff;stroke-width:1.44591808px"
+           y="640.17511"
+           x="3455.5447"
+           id="tspan5275-7"
+           sodipodi:role="line">NEXT</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="rect5279-2"
+         d="m 3651.5998,454.98916 v 23.98829 h -181.214 v 35.4355 h 181.214 v 21.9863 l 70.504,-40.705 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:0.99065396;stroke:#ffffff;stroke-width:1.56493926;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <a
+         xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\./3-Network.sozi.html"
+         id="a5343-7"
+         transform="translate(1648.1021,662.12785)">
+        <path
+           style="display:inline;fill:#326ce5;fill-opacity:0.00442481;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 1942.7405,-287.42411 a 24.15307,23.990688 0 0 0 -9.2562,2.3457 l -126.3071,60.4398 a 24.15307,23.990688 0 0 0 -13.0685,16.2747 l -31.1608,135.76289 a 24.15307,23.990688 0 0 0 3.2793,18.394 24.15307,23.990688 0 0 0 1.373,1.90896 L 1855.025,56.5614 a 24.15307,23.990688 0 0 0 18.8838,9.02714 l 140.1995,-0.0324 a 24.15307,23.990688 0 0 0 18.8839,-9.01095 l 87.3924,-108.87563 a 24.15307,23.990688 0 0 0 4.6685,-20.30295 l -31.2093,-135.76292 a 24.15307,23.990688 0 0 0 -13.0685,-16.2747 l -126.3233,-60.4074 a 24.15307,23.990688 0 0 0 -11.7115,-2.3457 z"
+           id="path5341-8"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="new.png"
+           inkscape:export-xdpi="250.55"
+           inkscape:export-ydpi="250.55" />
+      </a>
     </g>
   </g>
 </svg>

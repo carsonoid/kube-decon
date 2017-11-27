@@ -1,9 +1,10 @@
 ## Power User Topics Applied here:
-# Lifecyle hooks
+# lifecycle hooks
 # Affinity
 # Container SecurityContext
 # ConfigMaps as Volumes
 ---
+# Example of using a configmap to provide config files to a service
 kind: ConfigMap
 apiVersion: v1
 metadata:
@@ -24,11 +25,13 @@ data:
     }
   defaults.conf: |
     ext sozi.html .html
-    browse /markdown
     browse /demo
     browse /docs
     browse /pdf
-    markdown /srv/markdown
+    browse /markdown
+    markdown /markdown
+    # Update default index file
+    index markdown/index.md
   alive.conf: |
     status 200 /alive
     header /alive {
@@ -40,6 +43,7 @@ data:
       X-Is-Ready "yes"
     }
 ---
+# Example of using a configmap to provide content for an application
 kind: ConfigMap
 apiVersion: v1
 metadata:
@@ -47,15 +51,18 @@ metadata:
   namespace: kube-decon
 data:
   index.md: |
-    # What are you looking for?
+    # Kubernetes Deconstructed
 
-    [Presentation](../)
+    ## [Presentation](../)
 
-    [Demo](../demo)
+    ## [Demo](../demo)
 
-    [Power User YAML](../power)
+    ## [Power User YAML](../demo/resources/power)
 
-    [Credits](./credits.md)
+     * [Same Namespace Proxy](/nginx)
+     * [Other Namespace Proxy](/nginx-webhelpers)
+
+    ## [Credits](./credits.md)
   credits.md: |
     # Credits
 
@@ -92,6 +99,7 @@ data:
      * RAM Memory: Fabuio
      * Statistics: hawk88
 ---
+# Enhanced version of the basic deployment
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:

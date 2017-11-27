@@ -24,7 +24,7 @@ metadata:
   name: default-deny
   namespace: kube-decon
 spec:
-  podSelector: {}t
+  podSelector: {}
   policyTypes:
   - Ingress
   - Egress
