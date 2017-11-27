@@ -34,13 +34,13 @@
      showguides="false"
      showborder="false"
      inkscape:pagecheckerboard="true"
-     inkscape:current-layer="layer51"
+     inkscape:current-layer="layer22"
      inkscape:window-maximized="1"
-     inkscape:window-y="180"
+     inkscape:window-y="-8"
      inkscape:window-x="2552"
-     inkscape:cy="-11787.957"
-     inkscape:cx="3904.2924"
-     inkscape:zoom="0.7071068"
+     inkscape:cy="-2541.4037"
+     inkscape:cx="3787.1108"
+     inkscape:zoom="0.3535534"
      showgrid="false"
      id="namedview168"
      inkscape:window-height="1356"
@@ -1702,7 +1702,7 @@
      inkscape:label="Affinity">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:122.22954559px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.48813605px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:122.22954559px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#326ce5;fill-opacity:1;stroke:none;stroke-width:1.48813605px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
        x="3006.4465"
        y="12257.854"
        id="text6175"><tspan
@@ -1710,7 +1710,7 @@
          id="tspan6173"
          x="3006.4465"
          y="12257.854"
-         style="stroke-width:1.48813605px;">Affinity</tspan></text>
+         style="stroke-width:1.48813605px;fill:#326ce5;fill-opacity:1;">Affinity</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1718,7 +1718,7 @@
      inkscape:label="AntiAffinity">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:122.22954559px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.48813605px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:122.22954559px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#326ce5;fill-opacity:1;stroke:none;stroke-width:1.48813605px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
        x="3610.4465"
        y="12257.854"
        id="text6175-1"><tspan
@@ -1726,7 +1726,7 @@
          id="tspan6173-3"
          x="3610.4465"
          y="12257.854"
-         style="stroke-width:1.48813605px">Anti-Affinity</tspan></text>
+         style="stroke-width:1.48813605px;fill:#326ce5;fill-opacity:1;">Anti-Affinity</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2017,7 +2017,7 @@
      inkscape:label="ResourcesAsEnv">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#326ce5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
        x="2559.1543"
        y="10461.777"
        id="text5540-8"><tspan
@@ -2293,7 +2293,7 @@
      inkscape:label="ResourcesAsVols">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#326ce5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
        x="2588.011"
        y="8807.374"
        id="text5540"><tspan
@@ -2618,7 +2618,7 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#326ce5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
        x="2969.8486"
        y="7008.4937"
        id="text5279"><tspan
@@ -2769,7 +2769,7 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#326ce5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
        x="2916"
        y="4851.0669"
        id="text5176"><tspan
@@ -2938,7 +2938,7 @@
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.49529266px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.49529266px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#326ce5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="3061.6035"
        y="3065.9575"
        id="text5165"><tspan
@@ -2946,26 +2946,26 @@
          id="tspan5163"
          x="3061.6035"
          y="3065.9575"
-         style="stroke-width:1px">Read Only</tspan><tspan
+         style="fill:#326ce5;fill-opacity:1;stroke-width:1px">Read Only</tspan><tspan
          sodipodi:role="line"
          x="3061.6035"
          y="3158.5615"
          id="tspan5167"
-         style="stroke-width:1px">Root Allowed</tspan><tspan
+         style="fill:#326ce5;fill-opacity:1;stroke-width:1px">Root Allowed</tspan><tspan
          sodipodi:role="line"
          x="3061.6035"
          y="3251.1658"
-         style="stroke-width:1px"
+         style="fill:#326ce5;fill-opacity:1;stroke-width:1px"
          id="tspan5171">Root Capabilities</tspan><tspan
          sodipodi:role="line"
          x="3061.6035"
          y="3343.7698"
-         style="stroke-width:1px"
+         style="fill:#326ce5;fill-opacity:1;stroke-width:1px"
          id="tspan6926">Run User</tspan><tspan
          sodipodi:role="line"
          x="3061.6035"
          y="3436.3738"
-         style="stroke-width:1px"
+         style="fill:#326ce5;fill-opacity:1;stroke-width:1px"
          id="tspan6937">Privileged </tspan></text>
   </g>
   <g
@@ -3007,7 +3007,7 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#326ce5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
        x="2916.2842"
        y="2733.1255"
        id="text4979"><tspan
@@ -3023,7 +3023,7 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#326ce5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
        x="2584.8008"
        y="1324.3289"
        id="text5957"><tspan
@@ -3273,8 +3273,8 @@
        inkscape:connector-curvature="0" />
     <a
        xlink:href="./7-Credits.sozi.html"
-       transform="translate(-145.1205,-265.59625)"
-       id="a5343">
+       id="a5343"
+       transform="translate(-145.1205,-265.59625)">
       <path
          inkscape:export-ydpi="250.55"
          inkscape:export-xdpi="250.55"
@@ -3292,10 +3292,10 @@
      style="display:inline">
     <a
        xlink:href="1-Basic.sozi.html"
-       target=""
-       style="fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:0.9397676"
+       id="a94374-4-2-1"
        transform="matrix(1.0640761,0,0,1.0641097,-6466.0498,-209.53261)"
-       id="a94374-4-2-1">
+       style="fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:0.9397676"
+       target="">
       <rect
          inkscape:transform-center-y="7.2162773"
          inkscape:transform-center-x="30.735996"
@@ -3368,9 +3368,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:101.52362061px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:7.15559387px">Cloud</tspan></text>
     <a
        xlink:href="./4-Cloud.sozi.html"
-       id="a94636"
+       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676"
        transform="matrix(1.0640761,0,0,1.0641097,-390.06152,186.92065)"
-       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676">
+       id="a94636">
       <rect
          style="display:inline;fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:2.86759973;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4557-5-5-2-7-8-5"
@@ -3395,9 +3395,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:101.52362061px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:7.15559387px">Network</tspan></text>
     <a
        xlink:href="./3-Network.sozi.html"
-       id="a94642"
+       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676"
        transform="matrix(1.0640761,0,0,1.0641097,-390.06152,-71.219869)"
-       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676">
+       id="a94642">
       <rect
          style="display:inline;fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:2.86759973;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4557-5-5-2-7-8-8"
@@ -3410,9 +3410,9 @@
     </a>
     <a
        xlink:href="./5-Linux.sozi.html"
-       id="a94639"
+       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676"
        transform="matrix(1.0640761,0,0,1.0641097,-390.06152,57.850391)"
-       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676">
+       id="a94639">
       <rect
          style="display:inline;fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:2.86759973;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4557-5-5-2-7-8-87"
@@ -3425,9 +3425,9 @@
     </a>
     <a
        xlink:href="./5-Power.sozi.html"
-       id="a94645"
+       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676"
        transform="matrix(1.0640761,0,0,1.0641097,-390.06152,57.850391)"
-       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676">
+       id="a94645">
       <rect
          style="display:inline;fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:2.86759973;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4557-5-5-2-7-8-2"
@@ -3453,9 +3453,9 @@
     </a>
     <a
        xlink:href="./1-Basic.sozi.html"
-       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676"
+       id="a5090"
        transform="matrix(1.0640761,0,0,1.0641097,-390.06152,-75.219868)"
-       id="a5090">
+       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676">
       <rect
          inkscape:transform-center-y="7.2162773"
          inkscape:transform-center-x="30.735996"

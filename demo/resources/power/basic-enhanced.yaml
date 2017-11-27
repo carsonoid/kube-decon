@@ -25,6 +25,9 @@ data:
   defaults.conf: |
     ext sozi.html .html
     browse /markdown
+    browse /demo
+    browse /docs
+    browse /pdf
     markdown /srv/markdown
   alive.conf: |
     status 200 /alive
@@ -47,6 +50,10 @@ data:
     # What are you looking for?
 
     [Presentation](../)
+
+    [Demo](../demo)
+
+    [Power User YAML](../power)
 
     [Credits](./credits.md)
   credits.md: |
