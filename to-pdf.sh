@@ -1,6 +1,6 @@
 #!/bin/bash -ex
 
-SOZI_OPTS="-W 24 -H 18"
+SOZI_OPTS="-W 30 -H 18"
 
 mkdir pdf || true
 
