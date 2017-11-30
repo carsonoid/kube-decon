@@ -20,11 +20,11 @@ if [[ "$DEMO" == "basic" ]]; then
     p "# Configure kubectl with imperatives"
     p "# ------------"
     #pe "kubectl config"
-    p "kubectl config set-credentials kubecon17-auth --token=REDACTED"
-    kubectl config set-credentials kubecon17-auth --token=$(cat ./admin.token)
-    p
     p "kubectl config set-cluster kubecon17-cluster --server=https://master.kubecon.carson-anderson.com  --certificate-authority=./ca.crt --embed-certs=true"
     kubectl config set-cluster kubecon17-cluster --server=https://master.kubecon.carson-anderson.com  --insecure-skip-tls-verify=true
+    p
+    p "kubectl config set-credentials kubecon17-auth --token=REDACTED"
+    kubectl config set-credentials kubecon17-auth --token=$(cat ./admin.token)
     p
     pe "kubectl config set-context kubecon17 --cluster=kubecon17-cluster --user=kubecon17-auth"
     pe "kubectl config use-context kubecon17"
@@ -54,6 +54,7 @@ if [[ "$DEMO" == "basic" ]]; then
         clear
         pe "kubectl --namespace=kube-decon get deployment,pods,service,ingress"
         kubectl --namespace=kube-decon get po |grep -q Running && break
+        sleep 5
     done
 elif [[ "$DEMO" == "power" ]]; then
     pe "kubectl apply -f resources/power"
