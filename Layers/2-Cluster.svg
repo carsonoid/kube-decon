@@ -5980,7 +5980,7 @@
        id="rect4557-6-9-9-2"
        style="display:inline;fill:#000000;fill-opacity:0.99516913;stroke:#000000;stroke-width:3.04928589;stroke-miterlimit:4;stroke-dasharray:none" />
     <a
-       xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\2-Cluster.sozi.html"
+       xlink:href="./2-Cluster.sozi.html"
        id="a94374-4-5"
        transform="translate(-5710.1082,-123.99464)"
        style="fill:#000000;fill-opacity:0.02512566;stroke:none"
@@ -5993,7 +5993,7 @@
      inkscape:groupmode="layer">
     <a
        style="stroke:#316de4;stroke-width:0.9397676;stroke-opacity:1"
-       xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\./2-Cluster.sozi.html"
+       xlink:href="./2-Cluster.sozi.html"
        transform="matrix(1.0640761,0,0,1.0641097,-3628.1602,2583.8712)"
        id="a94374-44">
       <rect
@@ -6059,7 +6059,7 @@
        transform="matrix(1.0640761,0,0,1.0641097,-3153.6902,2583.8712)"
        style="fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:0.9397676"
        target=""
-       xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\1-Basic.sozi.html">
+       xlink:href="./1-Basic.sozi.html">
       <rect
          style="display:inline;fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:2.86759973;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4557-5-5-2-7-0-7"
@@ -6527,7 +6527,7 @@
          d="m 6917.8222,3228.1427 v 23.9883 h -181.214 v 35.4355 h 181.214 v 21.9863 l 70.504,-40.705 z"
          style="opacity:1;fill:#ffffff;fill-opacity:0.99065396;stroke:#ffffff;stroke-width:1.56493926;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <a
-         xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\./3-Network.sozi.html#intro"
+         xlink:href="./3-Network.sozi.html#intro"
          id="a5343-5"
          transform="translate(4914.3246,3435.2814)">
         <path

@@ -10,7 +10,7 @@ sozi-to-pdf $SOZI_OPTS \
     Layers/0-Intro.sozi.html
 
 sozi-to-pdf $SOZI_OPTS \
-    --exclude 1,4,6,7,10,11,12,23,25,27,29,31,33,35,37,46,47,48,49,51,52,53,54 \
+    --exclude 1,4,6,7,10,11,12,13,24,26,28,30,32,34,36,38,47,48,49,50,52,53,54,55 \
     -o pdf/1-Basic.pdf \
     Layers/1-Basic.sozi.html
 

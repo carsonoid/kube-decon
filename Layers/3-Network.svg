@@ -8626,7 +8626,7 @@
        style="fill:#000000;fill-opacity:0.02512566;stroke:none"
        transform="translate(-5710.1082,-123.99464)"
        id="a94374-4-5"
-       xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\2-Cluster.sozi.html" />
+       xlink:href="./2-Cluster.sozi.html" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -8636,7 +8636,7 @@
     <a
        id="a94374-44"
        transform="matrix(1.0640761,0,0,1.0641097,-6940.5198,-209.53256)"
-       xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\./2-Cluster.sozi.html"
+       xlink:href="./2-Cluster.sozi.html"
        style="stroke:#316de4;stroke-width:0.9397676;stroke-opacity:1">
       <rect
          inkscape:transform-center-y="7.2162773"
@@ -9131,7 +9131,7 @@
          d="m 3770.3938,449.3323 v 23.98829 h -181.214 v 35.4355 h 181.214 v 21.9863 l 70.504,-40.705 z"
          style="opacity:1;fill:#ffffff;fill-opacity:0.99065396;stroke:#ffffff;stroke-width:1.56493926;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <a
-         xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\./4-Cloud.sozi.html#intro"
+         xlink:href="./4-Cloud.sozi.html#intro"
          id="a5343-6"
          transform="translate(1766.8961,656.47099)">
         <path

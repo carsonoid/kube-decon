@@ -34,13 +34,13 @@
      showguides="false"
      showborder="false"
      inkscape:pagecheckerboard="true"
-     inkscape:current-layer="layer20"
+     inkscape:current-layer="layer21"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="2552"
-     inkscape:cy="-1771.9184"
-     inkscape:cx="2343.5119"
-     inkscape:zoom="0.1767767"
+     inkscape:cy="-4058.8201"
+     inkscape:cx="2180.387"
+     inkscape:zoom="0.3535534"
      showgrid="false"
      id="namedview168"
      inkscape:window-height="1356"
@@ -796,6 +796,64 @@
          id="tspan5479"
          x="3048"
          y="5285.0664">Questions?</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer21"
+     inkscape:label="LInks"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#326ce5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="2341.3816"
+       y="5277.4961"
+       id="text5426"><tspan
+         sodipodi:role="line"
+         id="tspan5424"
+         x="2341.3816"
+         y="5349.7759" /><tspan
+         sodipodi:role="line"
+         x="2341.3816"
+         y="5453.2671"
+         id="tspan5438">Full Video:</tspan><tspan
+         sodipodi:role="line"
+         x="2341.3816"
+         y="5556.7583"
+         id="tspan5444">Basic:</tspan><tspan
+         sodipodi:role="line"
+         x="2341.3816"
+         y="5660.25"
+         id="tspan5436">Power:</tspan><tspan
+         sodipodi:role="line"
+         x="2341.3816"
+         y="5763.7412"
+         id="tspan5458">GitHub:</tspan></text>
+    <text
+       id="text5500"
+       y="5279.2207"
+       x="2918.3806"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#326ce5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="5351.5005"
+         x="2918.3806"
+         id="tspan5490"
+         sodipodi:role="line" /><tspan
+         id="tspan5492"
+         y="5454.9917"
+         x="2918.3806"
+         sodipodi:role="line">http://bit.do/kube-decon-full</tspan><tspan
+         id="tspan5494"
+         y="5558.4829"
+         x="2918.3806"
+         sodipodi:role="line">http://bit.do/kube-decon</tspan><tspan
+         id="tspan5496"
+         y="5661.9746"
+         x="2918.3806"
+         sodipodi:role="line">http://bit.do/kube-decon-power</tspan><tspan
+         id="tspan5498"
+         y="5765.4658"
+         x="2918.3806"
+         sodipodi:role="line">@carsonoid</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2667,7 +2725,7 @@
        style="fill:#000000;fill-opacity:0.02512566;stroke:none"
        transform="translate(-5710.1082,-123.99464)"
        id="a94374-4-5"
-       xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\2-Cluster.sozi.html" />
+       xlink:href="./2-Cluster.sozi.html" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2677,7 +2735,7 @@
     <a
        id="a94374-44"
        transform="matrix(1.0640761,0,0,1.0641097,-6940.5198,-209.53256)"
-       xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\./2-Cluster.sozi.html"
+       xlink:href="./2-Cluster.sozi.html"
        style="stroke:#316de4;stroke-width:0.9397676;stroke-opacity:1">
       <rect
          inkscape:transform-center-y="7.2162773"
@@ -2721,7 +2779,7 @@
     <a
        transform="translate(-145.1205,-265.59625)"
        id="a5343"
-       xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\./3-Network.sozi.html">
+       xlink:href="./3-Network.sozi.html">
       <path
          inkscape:export-ydpi="250.55"
          inkscape:export-xdpi="250.55"
@@ -2739,10 +2797,10 @@
      style="display:inline">
     <a
        xlink:href="1-Basic.sozi.html"
-       id="a94374-4-2-1"
-       transform="matrix(1.0640761,0,0,1.0641097,-6466.0498,-209.53261)"
+       target=""
        style="fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:0.9397676"
-       target="">
+       transform="matrix(1.0640761,0,0,1.0641097,-6466.0498,-209.53261)"
+       id="a94374-4-2-1">
       <rect
          inkscape:transform-center-y="7.2162773"
          inkscape:transform-center-x="30.735996"
@@ -2815,9 +2873,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:101.52362061px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:7.15559387px">Cloud</tspan></text>
     <a
        xlink:href="./4-Cloud.sozi.html"
-       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676"
+       id="a94636"
        transform="matrix(1.0640761,0,0,1.0641097,-390.06152,186.92065)"
-       id="a94636">
+       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676">
       <rect
          style="display:inline;fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:2.86759973;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4557-5-5-2-7-8-5"
@@ -2842,9 +2900,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:101.52362061px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:7.15559387px">Network</tspan></text>
     <a
        xlink:href="./3-Network.sozi.html"
-       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676"
+       id="a94642"
        transform="matrix(1.0640761,0,0,1.0641097,-390.06152,-71.219869)"
-       id="a94642">
+       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676">
       <rect
          style="display:inline;fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:2.86759973;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4557-5-5-2-7-8-8"
@@ -2857,9 +2915,9 @@
     </a>
     <a
        xlink:href="./5-Linux.sozi.html"
-       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676"
+       id="a94639"
        transform="matrix(1.0640761,0,0,1.0641097,-390.06152,57.850391)"
-       id="a94639">
+       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676">
       <rect
          style="display:inline;fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:2.86759973;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4557-5-5-2-7-8-87"
@@ -2872,9 +2930,9 @@
     </a>
     <a
        xlink:href="./5-Power.sozi.html"
-       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676"
+       id="a94645"
        transform="matrix(1.0640761,0,0,1.0641097,-390.06152,57.850391)"
-       id="a94645">
+       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676">
       <rect
          style="display:inline;fill:#000000;fill-opacity:0.02512566;stroke:none;stroke-width:2.86759973;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4557-5-5-2-7-8-2"
@@ -2900,9 +2958,9 @@
     </a>
     <a
        xlink:href="./1-Basic.sozi.html"
-       id="a5090"
+       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676"
        transform="matrix(1.0640761,0,0,1.0641097,-390.06152,-75.219868)"
-       style="fill:#000000;fill-opacity:0.02512566;stroke-width:0.9397676">
+       id="a5090">
       <rect
          inkscape:transform-center-y="7.2162773"
          inkscape:transform-center-x="30.735996"
@@ -3174,7 +3232,7 @@
          d="m 3651.5998,454.98916 v 23.98829 h -181.214 v 35.4355 h 181.214 v 21.9863 l 70.504,-40.705 z"
          style="opacity:1;fill:#ffffff;fill-opacity:0.99065396;stroke:#ffffff;stroke-width:1.56493926;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <a
-         xlink:href="C:\Users\carsona\Dropbox\Documents\Kubernetes Deconstructed\Layers\./3-Network.sozi.html"
+         xlink:href="./3-Network.sozi.html"
          id="a5343-7"
          transform="translate(1648.1021,662.12785)">
         <path
@@ -3188,4 +3246,14 @@
       </a>
     </g>
   </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.13600159px;line-height:125.99999905%;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     x="2853.8828"
+     y="5995.9165"
+     id="text5442"><tspan
+       sodipodi:role="line"
+       id="tspan5440"
+       x="2853.8828"
+       y="6068.1963" /></text>
 </svg>
